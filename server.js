@@ -267,7 +267,7 @@ app.use('/api/polls', require('./routes/polls'));
 app.use('/api/messages', require('./routes/messages'));
 app.use('/api/weather', require('./routes/weather'));
 app.use("/api/upload", uploadRoutes);
-app.use("/api/trips", galleryRoutes);
+app.use("/api", galleryRoutes);
 app.use("/api/users", userRoutes);
 
 /* ------------------------------------------------------
